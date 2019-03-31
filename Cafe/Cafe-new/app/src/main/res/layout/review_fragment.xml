@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:background="#d7d7d7"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/rat_count"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:gravity="center_vertical"
+            android:text="RATING(0)"
+            android:textColor="@color/textcolor"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="175dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="180dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Average"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/rating_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:text="0 / 5"
+                android:textColor="@color/textcolor"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/cus_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="12dp"
+                android:text="from 0 customers" />
+            <TextView
+                android:maxLines="2"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="Do you Like This Item?"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:text="Rate it now"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <TextView
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:background="#d7d7d7"
+            android:layout_width="1dp"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_margin="10dp"
+                    android:background="#d7d7d7"
+                    android:layout_width="100dp"
+                    android:layout_height="2dp" />
+
+                <TextView
+                    android:id="@+id/count5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(0)" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4" />
+                <TextView
+                    android:layout_margin="10dp"
+                    android:background="#d7d7d7"
+                    android:layout_width="100dp"
+                    android:layout_height="2dp" />
+
+                <TextView
+                    android:id="@+id/count4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(0)" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3" />
+                <TextView
+                    android:layout_margin="10dp"
+                    android:background="#d7d7d7"
+                    android:layout_width="100dp"
+                    android:layout_height="2dp" />
+
+                <TextView
+                    android:id="@+id/count3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(0)" />
+
+            </LinearLayout>
+            <LinearLayout
+
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2" />
+                <TextView
+                    android:layout_margin="10dp"
+                    android:background="#d7d7d7"
+                    android:layout_width="100dp"
+                    android:layout_height="2dp" />
+
+                <TextView
+                    android:id="@+id/count2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(0)" />
+
+            </LinearLayout>
+            <LinearLayout
+
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1" />
+                <TextView
+                    android:layout_margin="10dp"
+                    android:background="#d7d7d7"
+                    android:layout_width="100dp"
+                    android:layout_height="2dp" />
+
+                <TextView
+                    android:id="@+id/count1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="(0)" />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/write_review"
+                android:textStyle="bold"
+                android:textColor="@color/textcolor"
+                android:textSize="15sp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:text="WRITE A REVIEW"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginTop="5dp"
+        android:id="@+id/recycler_review"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
